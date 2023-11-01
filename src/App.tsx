@@ -8,7 +8,6 @@ function App() {
 
   useEffect(() => {
     refAnimation.current = new ThreeAnimation(refContainer);
-    refAnimation.current.animate();
   }, []);
 
   return <div ref={refContainer} id="threeContainer"></div>;
